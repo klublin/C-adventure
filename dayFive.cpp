@@ -6,15 +6,6 @@
 #include<string.h>
 
 
-void print(const std::vector<int>& vec)
-{
-    std::cout<<"[";
-    for(const int& s:vec)
-    {
-        std::cout<<s<<",";
-    }
-    std::cout<<"]"<<"\n";
-}
 void maker(const std::string& line,std::vector<int>&bingo)
 {
     int i=0;
